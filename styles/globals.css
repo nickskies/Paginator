@@ -14,3 +14,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.pages_container{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 6px;
+  cursor: pointer;
+}
+.unselected{
+  color: black
+}
+.selected {
+  color: fuchsia;
+}
